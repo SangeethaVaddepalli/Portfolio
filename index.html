@@ -1,0 +1,206 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ddcd8769f5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hii, I'm <span>Sangeetha <br>Vaddepalli</span></h1>
+                    
+                </div>
+            </div>
+        </div>
+        <!----------------About Me----->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pic2.jpeg" class="bg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a web developer with a focus on the FULL stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                                <li><span>Frontend</span><br>Developing Web interfaces</li>
+                                <li><span>Fullstack</span><br>Developing complete websites.</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development</span><br>Did internship on Web Development with CodSoft. It was really helpful in testing my developing skills.It builds a confidence in me to do more adventures further and explore new things. </li>
+                                <li><span>Data Science</span><br>Did internship on Data Science with Evoastra Ventures.Here I did two projects which helped me in analysing data,cleaning data and creating csv files and storing data.</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>BSc Computer Science</li>
+                                <li><span>2021</span><br>HSC General Science</li>
+                                <li><span>2019</span><br>SSC</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----services------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Courses & Certifications</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Ethical Hacking</h2>
+                        <p>It was on an online virtual course by IIT KHARAGPUR where PROF. INDRANIL SENUGUPTA who thought from basic to advance level.This course was very interesting as it was about hacking networks,routers and IP address,etc
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>The Joy of Computing using Python</h2>
+                        <p>It was on an online virtual course by IIT ROPAR where PROF. S.R.S. IYENGAR who thought from basic to advance level.This course was very joyful as it is a friendly and easy understanding programming language.
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Data Analytics with Python</h2>
+                        <p>It was on an online virtual course by IIT ROORKEE where PROF. A.RAMESH who thought us nicely.This course was more about understanding statistics and algorithms to analyize data and get useful information.
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------portfolio----->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/land.PNG" alt="">
+                        <img src="images/land2.PNG" alt="">
+                        <img src="images/land3.PNG" alt="">
+                        <img src="images/land4.PNG" alt="">
+                        <div class="layer">
+                            <h3>LANDING PAGE</h3>
+                            <p>It is a simple landing page/home page of any website looks like.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/flo1.PNG" alt="">
+                        <img src="images/flo4.PNG" alt="">
+                        <img src="images/flo5.PNG" alt="">
+                        <img src="images/flo7.PNG" alt="">
+
+                        <div class="layer">
+                            <h3>Flower Shop Website</h3>
+                            <p>It is a full online flower store website where user buys flowers for wedding anniversary,birthdays or any special ocassions.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Cal.PNG" alt="">
+                        <div class="layer">
+                            <h3>Calculator App</h3>
+                            <p>It is a simple calculator App as it is used for arithmatical calculation purpose. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--------------contact----->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Sangeetha Vaddepall1.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name"  required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Sangeetha.  <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+        
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-links");
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        
+        <script>
+            var sidemeu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+
+    </body>
+    </html>
